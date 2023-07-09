@@ -1,0 +1,13 @@
+"use strict";
+let countries = ["Tokyo", "Paris", "New York ", "London ", "Kyoto"];
+console.log(countries);
+let alphaarray = [...countries].sort();
+console.log(alphaarray);
+console.log(countries);
+let reversearray = [...countries].sort((a, b) => b.localeCompare(a));
+console.log(reversearray);
+console.log(countries);
+countries.sort();
+console.log(countries);
+countries.sort((a, b) => b.localeCompare(a));
+console.log(countries);
